@@ -1,23 +1,31 @@
 body {
   background-color: hsl(217, 54%, 11%);
+  font-family: 'Outfit', sans-serif;
+  box-sizing: border-box;
+
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
-  font-family: 'Outfit', sans-serif;
-}
+  height: 100dvh;
 
-.wrapper {
-  background-color: hsl(216, 50%, 16%); 
   display: flex;
   flex-direction: column;
   justify-content: center;
+
+}
+
+.wrapper {
+  background-color: hsl(216, 50%, 16%);
+
+  display: flex;
+  flex-direction: column;
+
+  max-width: 260px;
+  max-height: 500px;
+  margin: 0 auto;
+  padding: 20px;
+
   border-radius: 20px;
   box-shadow: 0px 0px 20px 20px rgba(0, 0, 0, 0.1);
-  width: 260px;
-  margin: 0 auto;
-  margin-top: 80px;
-  margin-bottom: 80px;
-  padding: 20px;
 }
 
 .imgContainer {
@@ -26,20 +34,22 @@ body {
 
 .imgEquilibrium {
   border-radius: 10px;
-  height: 260px;
-  width: 260px;
+  height: 100%;
+  width: 100%;
 }
 
 .imgHover {
   background-color: hsl(178, 100%, 50%);
+
   position: absolute;
   transition: opacity 0.2s ease-in-out;
-  border-radius: 10px;
+
+  height: 100%;
+  width: 100%;
   top: 0;
   left: 0;
+  border-radius: 10px;
   opacity: 0;
-  height: 260px;
-  width: 260px;
 }
 
 .imgView{
@@ -93,23 +103,28 @@ span:hover{
 .profile {
   display: flex;
   align-items: center;
+
   border-top: 1px solid hsl(215, 32%, 27%);
   padding-top: 8px;
   gap: 10px;
 }
 
 .coin {
+  color: hsl(178, 100%, 50%);
+
   display: flex;
   align-items: center;
-  color: hsl(178, 100%, 50%);
+
   font-size: 14px;
   gap: 5px;
 }
 
 .time {
+  color: hsl(215, 51%, 70%);
+
   display: flex;
   align-items: center;
-  color: hsl(215, 51%, 70%);
+
   font-size: 14px;
   gap: 5px;
 }
