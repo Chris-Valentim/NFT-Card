@@ -62,7 +62,7 @@ Os designs foram criados para as seguintes larguras:
 
 ## 🚀 Como visualizar
 
-Para visualizar melhor, basta clicar nesse link:
+Para visualizar melhor, basta clicar nesse link: https://chris-valentim.github.io/NFT-Card/
 
 ---
 
