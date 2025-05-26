@@ -13,7 +13,6 @@ O card exibe uma arte digital com informações como:
 - Criador: `Jules Wyvern`
 
 ![Preview do Projeto](assets/projetoFinalizado.png)
-![Preview do Hover](assets/projetoFinalizado.png)
 
 ## 🛠️ Tecnologias Utilizadas
 
